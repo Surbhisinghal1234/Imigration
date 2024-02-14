@@ -1,0 +1,321 @@
+@media screen and (min-width: 320px) and (max-width: 570px) {
+  .navbarFirst {
+    display: none;
+  }
+  .navbarNavFirst {
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row !important;
+  }
+  .right-btn {
+    background-color: #df3834;
+    margin-left: 1.5rem;
+    padding-right: 0px !important;
+    width: 163px !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 10px;
+    line-height: 1;
+    border-radius: 10px;
+  }
+  .navbar-toggler-icon i {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .navItemMs a {
+    margin-left: 0 !important;
+  }
+  .navbarNavHome {
+    padding-left: 10px;
+  }
+  .slide-headings {
+    display: none;
+  }
+  .man-img {
+    width: unset;
+  }
+  .why-us {
+    background-color: #ffeeef;
+    height: unset;
+  }
+
+  footer {
+    height: unset;
+    text-align: center;
+    display: flex;
+  }
+  .meet-people-text {
+    height: unset !important;
+    width: unset !important;
+    position: unset !important ;
+    top: 80px;
+    left: 180px;
+    text-align: center;
+
+    padding-top: 2rem;
+    z-index: 2;
+  }
+  .meet-people {
+    top: -352px;
+  }
+  .meet-people-img-left {
+    z-index: -1;
+  }
+  .meet-people-img-right {
+    z-index: -1;
+  }
+  .contact-section {
+    padding-top: 2rem;
+  }
+  .why-us-heading h1 {
+    font-size: 37px;
+  }
+
+  /* *************************  */
+  .ExpertSupportPanel-head {
+    padding-bottom: 3rem;
+    padding-left: 0 !important;
+  }
+
+  /* *****************************  */
+  .ExpertSupportPanel {
+    text-align: center !important;
+  }
+  .ExpertSupportPanel {
+    width: unset !important;
+  }
+  .trustworthy-services {
+    width: 246px;
+  }
+  .trustworthy-services i {
+    padding-left: 1rem;
+  }
+  .trustworthy-services-btn button {
+    margin: auto;
+    display: flex;
+  }
+  /* *******************  */
+
+  /* ************************  */
+  .who-we-are-text {
+    text-align: center;
+    padding: 15px 13px 0 13px;
+  }
+  .settlement-of-boxes {
+    position: unset !important;
+  }
+  .elementor-position {
+    position: unset !important;
+    margin-bottom: 3rem;
+  }
+
+  .elementorWhite {
+    background-color: white;
+  }
+  .elementorInner {
+    display: flex;
+    flex-direction: column;
+    margin: 18px auto;
+    width: unset !important;
+  }
+  .elementor-inner-position {
+    margin: 10px auto;
+  }
+  .blank-box-one {
+    height: unset !important;
+  }
+  .elementor-inner-position {
+    width: unset !important;
+  }
+  .blank-box {
+    height: 385px;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 992px) {
+  .man-img {
+    width: 536px;
+  }
+
+  .who-we-are-text {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .why-us {
+    background-color: #ffeeef;
+    height: unset;
+  }
+  footer {
+    height: unset;
+    text-align: center;
+    display: flex;
+  }
+  .meet-people-text {
+    height: unset !important;
+    width: unset !important;
+    position: unset !important ;
+    top: 80px;
+    left: 180px;
+    text-align: center;
+
+    padding-top: 2rem;
+    z-index: 2;
+  }
+  .meet-people {
+    top: -352px;
+  }
+  .meet-people-img-left {
+    z-index: -1;
+  }
+  .meet-people-img-right {
+    z-index: -1;
+  }
+  .contact-section {
+    padding-top: 2rem;
+  }
+  .why-us-heading h1 {
+    font-size: 37px;
+  }
+  .ExpertSupportPanel {
+    width: unset !important;
+  }
+  .counter-number h1 {
+    font-size: 40px;
+    padding-right: 15px;
+  }
+  .counter-number .choose-img {
+    padding-top: 0 !important;
+  }
+  .opportunities h2 {
+    font-size: 23px;
+  }
+
+  .numberBottomText p {
+    font-size: 15px;
+  }
+
+  .opportunities-head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ExpertSupportPanel h2 {
+    font-size: 22px;
+  }
+  .ExpertSupportPanel span i {
+    font-size: 40px;
+  }
+  .ExpertSupportPanel p {
+    font-size: 16px;
+  }
+  .icon-head i {
+    display: inline-block;
+  }
+
+  .elementor-position {
+    position: unset !important  ;
+  }
+  .slide-content {
+    position: unset !important;
+  }
+  .elementorInner {
+    width: unset !important;
+    height: unset !important;
+    margin-top: 1rem;
+  }
+  .slide-headings h1 {
+    font-size: 2rem;
+  }
+  .slide-headings {
+    position: unset !important;
+  }
+  .slide-headings a {
+    padding: 10px 25px;
+  }
+  .blank-box-one {
+    height: unset !important;
+  }
+  .blank-box {
+    height: 400px !important;
+  }
+  .carousel-caption {
+    padding-top: 3.25rem;
+  }
+  .trustworthy-services-btn button {
+    margin: auto;
+    display: flex;
+  }
+}
+@media screen and (min-width: 769px) {
+  .man-img {
+    width: unset !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .opportunitiesCol .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .ExpertSupportPanel-head .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .ExpertSupportPanel-head {
+    padding: 1rem 0 0 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* .elementor-position {
+    left: 35px;
+  }  */
+
+  .elementorInner {
+    width: unset !important;
+    height: unset !important;
+  }
+
+  .slide-headings h1 {
+    font-size: 2.5rem;
+  }
+  .slide-headings a {
+    padding: 10px 25px;
+  }
+  /* ....................  */
+  .trustworthy-services-btn {
+    text-align: center;
+  }
+  .ExpertSupportPanel {
+    width: unset !important;
+  }
+  .why-us {
+    height: unset !important;
+  }
+  .why-us-heading h1 {
+    padding-bottom: 2rem;
+  }
+  .meet-people {
+    top: -195px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+  .elementor-position {
+    left: 58px;
+  }
+}
+@media screen and (min-width: 1266px) and (max-width: 1300px) {
+  .elementor-position {
+    left: 61px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1390px) {
+  .elementor-position {
+    left: 126px;
+  }
+}
+@media screen and (min-width: 1220px) and (max-width: 1250px) {
+  .elementor-position {
+    left: 50px;
+  }
+}
