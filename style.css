@@ -260,6 +260,28 @@ a {
 .elementorWhite {
   background-color: white;
 }
+.elementorWhite span i:hover {
+  background-color: rgba(128, 128, 128, 0.249);
+  /* background-color: #fff; */
+  color: #e40046 !important;
+  transition: all 0.5 ease-in-out;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+/* .elementorWhite:hover {
+  background-color: #1b1257 !important;
+  color: #fff !important;
+} */
+/* .elementorblue:hover{
+  background-color: #fff;
+  color: black;
+} */
+
+.elementorblue span i:hover {
+  background-color: #fff;
+  color: #0048b4 !important;
+  transition: all 0.6 ease-in-out;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
 .elementorblue {
   background-color: #1b1257;
   color: white;
@@ -335,6 +357,11 @@ a {
   color: #0048b4;
   font-size: 35px;
 }
+.trustworthy-text i:hover {
+  color: #e40046;
+  transition: all 0.4s ease-in-out;
+}
+
 .trustworthy-text h5 {
   padding: 15px 0 5px 0;
 }
@@ -583,3 +610,76 @@ footer {
 }
 
 /* //.........................  */
+
+/* COUNTRY SECTION  */
+
+.head {
+  width: 100%;
+  background-color: #00255c;
+  height: 500px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  color: white;
+  position: relative;
+}
+.textLeft {
+  /* padding: 20px 0 0 20px; */
+}
+.leftTopHead {
+  height: 90px;
+  width: 1000px;
+  background-color: red;
+}
+.uk {
+  height: 500px;
+  width: 89px;
+  border: 1px solid white;
+
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.countryParent {
+  display: flex;
+  justify-content: flex-end;
+}
+.uk h1 {
+  transform: rotate(270deg);
+}
+.roundCheck {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+.countryContent {
+  /* padding: 20px 0 0 20px; */
+}
+.leftTopHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 1005px;
+}
+.leftTwo {
+  display: none;
+}
+.leftThree {
+  display: none;
+}
+.leftFour {
+  display: none;
+}
+.leftFive {
+  display: none;
+}
+.leftSix {
+  display: none;
+}
+/* .hoverEffect:hover {
+  background-color: red;
+} */
