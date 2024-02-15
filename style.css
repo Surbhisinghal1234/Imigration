@@ -3,6 +3,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+  display: none;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* .dropdown-item {
+  padding: 0.25rem 1rem;
+} */
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 50px;
+}
 
 a {
   text-decoration: none !important;
@@ -163,12 +189,45 @@ a {
   background-color: #e40046;
   border: none !important;
 }
-.elementor-left-btn:hover {
+/* .elementor-left-btn:hover {
   background-color: #5b74f6;
   color: white;
+} */
+.elementor-left-btn {
+  background-image: linear-gradient(to bottom, transparent 50%, #5b74f6 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: background-position 0.5s ease-in-out;
+  color: #5b74f6;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
 }
-.elementor-right-btn:hover {
+
+.elementor-left-btn:hover {
+  background-position: 0 100%;
+  color: white;
+}
+/* .elementor-right-btn:hover {
   background-color: #5b74f6;
+  color: white;
+  border: 2px solid #5b74f6;
+} */
+.elementor-right-btn {
+  background-image: linear-gradient(to bottom, transparent 50%, #5b74f6 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: background-position 0.5s ease-in-out;
+  color: #5b74f6;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.elementor-right-btn:hover {
+  background-position: 0 100%;
   color: white;
   border: 2px solid #5b74f6;
 }
@@ -407,10 +466,26 @@ footer {
   color: #061d25 !important;
   margin-right: 10px;
 }
-.meet-people-text button:hover {
+/* .meet-people-text button:hover {
   background-color: #fff;
   color: #8a0f3d;
   transition: all 0.4s ease-in;
+} */
+.meet-people-text button {
+  background-image: linear-gradient(to bottom, transparent 50%, #fff 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: background-position 0.6s ease-in-out;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.meet-people-text button:hover {
+  background-position: 0 100%;
+  color: #8a0f3d;
 }
 /* ***************/
 /* why choose us */
@@ -429,6 +504,7 @@ footer {
   text-align: center;
   padding-bottom: 3rem;
 }
+
 .why-us-heading h5 {
   text-align: center;
 }
@@ -498,10 +574,12 @@ footer {
 .contact-section p a:hover {
   color: #8a0f3d;
   text-decoration: underline !important;
+  transition: all 0.4s ease-in-out;
 }
 .footer-icons a span i:hover {
   background-color: #8a0f3d;
   color: #fff !important;
+  transition: all 0.5s ease-in-out;
 }
 
 /* //.........................  */
