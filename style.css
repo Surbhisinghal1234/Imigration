@@ -4,10 +4,66 @@
   box-sizing: border-box;
 }
 
-/* top navbar */
 a {
   text-decoration: none !important;
 }
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(40px);
+  }
+}
+
+.elementor-widget-container {
+  width: 140px;
+  cursor: pointer;
+  margin: auto;
+  overflow: hidden;
+}
+
+.wave-animation {
+  display: inline-block;
+}
+
+.elementor-widget-container:hover .wave-animation {
+  color: white;
+
+  animation: wave 0.25s linear;
+}
+
+.elementor-widget-container .wave-animation:nth-child(2n) {
+  animation-delay: 0.1s;
+}
+
+.elementor-widget-container .wave-animation:nth-child(3n) {
+  animation-delay: 0.15s;
+}
+
+.elementor-widget-container .wave-animation:nth-child(4n) {
+  animation-delay: 0.2s;
+}
+
+.elementor-widget-container .wave-animation:nth-child(5n) {
+  animation-delay: 0.25s;
+}
+
+.elementor-widget-container .wave-animation:nth-child(6n) {
+  animation-delay: 0.3s;
+}
+
+.elementor-widget-container .wave-animation:nth-child(7n) {
+  animation-delay: 0.4s;
+}
+/* top navbar */
 
 .navbar-text ul {
   display: flex;
@@ -447,3 +503,5 @@ footer {
   background-color: #8a0f3d;
   color: #fff !important;
 }
+
+/* //.........................  */
