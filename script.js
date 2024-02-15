@@ -88,8 +88,8 @@ function displayCountryContentt(countryy) {
     // Apply styles to the clicked country's box
     rightBox.style.position = "absolute";
     rightBox.style.left = "200px";
-    rightBox.style.bottom = "-374px";
-    rightBox.style.height = "1658px";
+    rightBox.style.bottom = "-393px";
+    rightBox.style.height = "1698px";
     rightBox.style.width = "90px";
 
     rightBox.style.backgroundColor = "red";

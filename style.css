@@ -634,7 +634,7 @@ footer {
 }
 .uk {
   height: 500px;
-  width: 89px;
+  width: 85px;
   border: 1px solid white;
 
   display: flex;
@@ -663,7 +663,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 90px;
-  width: 1005px;
+  width: 1009px;
 }
 .leftTwo {
   display: none;
