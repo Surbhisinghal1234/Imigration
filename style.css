@@ -760,12 +760,9 @@ footer {
 /* for laptop size  */
 .container-main {
   max-width: 1300px;
-  margin: 50px auto;
+  margin: 40px auto;
   text-align: center;
-  /* padding: 0 20px; */
-  /* margin-left: 0 !important;
-  padding-left: 0 !important; */
-  /* display: flex; */
+  padding-left: none !important;
 }
 .slidess {
   width: 100%;
@@ -821,11 +818,8 @@ footer {
   height: 100px;
 }
 .slide-contentt {
-  /* display: block; */
-  /* width: 710px; */
   padding: 40px;
   background-color: #00255c;
-  /* Remove the columns property */
   width: 100% !important;
   color: white;
   height: 590px;
@@ -874,3 +868,6 @@ footer {
 /* .asked {
   display: none;
 } */
+.AccordFlex p {
+  text-align: left;
+}
