@@ -27,7 +27,7 @@
 } */
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   position: absolute;
-  top: 39px;
+  top: 35px;
 }
 
 a {
@@ -101,7 +101,7 @@ a {
   padding-left: 25px;
 }
 .navbar {
-  background-color: #1c253a;
+  background-color: rgba(10, 26, 65, 0.925);
 }
 .navbar-text ul li a {
   color: #fff;
@@ -136,20 +136,20 @@ a {
   margin-left: 1rem;
 }
 .nav-logo {
-  height: 100px;
-  width: 200px;
-  position: relative;
+  height: 50px;
+  width: 166px;
+  /* position: relative; */
 }
 .nav-logo img {
   height: 100%;
   width: 100%;
-  position: absolute;
-  top: -57px;
-  left: 120px;
-  border-bottom: 5px red solid;
-  background-color: white;
+  /* position: absolute; */
+  /* top: -57px;
+  left: 120px; */
+  /* border-bottom: 5px red solid; */
+  /* background-color: white; */
   padding: 7px;
-  box-shadow: 10px 10px 10px #eee;
+  /* box-shadow: 10px 10px 10px #eee; */
 }
 /* ............................. */
 
@@ -628,9 +628,12 @@ footer {
   /* padding: 20px 0 0 20px; */
 }
 .leftTopHead {
-  height: 90px;
-  width: 1000px;
   background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 1009px;
 }
 .uk {
   height: 500px;
@@ -658,13 +661,7 @@ footer {
 .countryContent {
   /* padding: 20px 0 0 20px; */
 }
-.leftTopHead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90px;
-  width: 1009px;
-}
+
 .leftTwo {
   display: none;
 }
@@ -682,4 +679,198 @@ footer {
 }
 /* .hoverEffect:hover {
   background-color: red;
+} */
+/* ...............  */
+.asked {
+  background-color: #fff;
+}
+.accordion-button {
+  position: relative;
+
+  padding: 2rem 1.25rem !important;
+}
+.asked_box h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+}
+
+.accordion_box .accordion-item {
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+
+.accordion-button::after {
+  background-image: none !important;
+}
+.accordion_box .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #e13833;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.accordion_box .accordion-body {
+  font-size: 25px;
+}
+
+.accordion_box .accordion-button {
+  background-color: #00255c;
+  color: white;
+  font-size: 25px;
+}
+.accordion_box .accordion-body {
+  background: #00255c;
+}
+
+.accordion_box {
+  margin-bottom: 10px;
+}
+
+.accordion_box .accordion-item:last-of-type .accordion-button.collapsed {
+  padding: 30px;
+}
+
+.bottom_text {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.bottom_text h5 {
+  font-size: 25px;
+}
+.head {
+  display: none;
+}
+.AccordFlex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.roundCheckAccord {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  /* margin-top: 10px; */
+}
+
+/* for laptop size  */
+.container-main {
+  max-width: 1300px;
+  margin: 50px auto;
+  text-align: center;
+  /* padding: 0 20px; */
+  /* margin-left: 0 !important;
+  padding-left: 0 !important; */
+  /* display: flex; */
+}
+.slidess {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slideLi {
+  list-style: none;
+  /* min-height: 400px; */
+  height: 550px;
+  width: 10%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  /* transition: margin-right 1s; */
+  background-color: #00255c;
+  border-right: 1px solid white;
+}
+.slideLi:hover {
+  background-color: #8a0f3d;
+}
+/* .brand1 {
+  background-color: #db65e5;
+}
+.brand2 {
+  background-color: #b43e8f;
+}
+.brand3 {
+  background-color: #6200b3;
+}
+.brand4 {
+  background-color: #3b0006;
+}
+.brand5 {
+  background-color: olive;
+}
+.brand6 {
+  background-color: orangered;
+} */
+.slideLi a.action {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.slideLi a.action span {
+  font-weight: 600;
+  color: #fff;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 32%;
+  width: 137px;
+  left: 18px;
+  height: 100px;
+}
+.slide-contentt {
+  /* display: block; */
+  /* width: 710px; */
+  padding: 40px;
+  background-color: #00255c;
+  /* Remove the columns property */
+  width: 100% !important;
+  color: white;
+  height: 590px;
+}
+.active {
+  width: 80%;
+}
+.active a.action {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .slidess {
+    display: initial;
+  }
+  .slideLi {
+    width: 100% !important;
+    margin-bottom: 15px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .slide-content {
+    width: 100% !important;
+    padding: 25px;
+    font: 95%;
+  }
+}
+.roundCheckAccord {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  /* margin-top: 10px; */
+}
+.AccordFlex {
+  display: flex;
+  /* flex-direction: row !important; */
+  align-items: center;
+  /* justify-content: center; */
+}
+.AccordFlex p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+/* .asked {
+  display: none;
 } */
