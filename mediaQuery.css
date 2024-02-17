@@ -97,9 +97,9 @@
     margin: auto;
     display: flex;
   }
-  /* *******************  */
+  /**************************/
 
-  /* ************************  */
+  /**************************/
   .who-we-are-text {
     text-align: center;
     padding: 15px 13px 0 13px;
@@ -267,14 +267,12 @@
   }
 }
 @media screen and (min-width: 992px) {
-  /* .elementor-position {
-    left: 35px;
-  }  */
-
+ 
   .elementorInner {
     width: unset !important;
     height: unset !important;
   }
+  /*  CAROUSEL SECTION  */
 
   .slide-headings h1 {
     font-size: 2.5rem;
@@ -282,7 +280,9 @@
   .slide-headings a {
     padding: 10px 25px;
   }
-  /* ....................  */
+
+  /*  WHO WE ARE  */
+
   .trustworthy-services-btn {
     text-align: center;
   }
@@ -299,6 +299,8 @@
     top: -195px;
   }
 }
+
+/* POSITION SECTION  */
 @media screen and (min-width: 992px) and (max-width: 1198px) {
   .elementor-position {
     left: 58px;
@@ -319,55 +321,21 @@
     left: 50px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 570px) {
-  .head {
-    display: none;
-  }
 
-  .uk {
-    /* height: 500px; */
-    width: 395px !important;
-  }
-  .leftTopHead {
-    width: unset !important;
-    height: unset !important;
-  }
-  .AccordFlex {
-    display: flex;
-    /* flex-direction: row !important; */
-    align-items: center;
-    /* justify-content: center; */
-  }
-  .AccordFlex p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding-left: 2rem;
-  }
-  .countryParent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .uk h1 {
-    transform: unset !important;
-  }
-  .roundCheckAccord {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: white;
-    /* margin-top: 10px; */
-  }
-  .textLeft {
-    display: none;
+
+
+/* **************************************** */
+/* VERTICAL ACCORDIAN FOR COUNTRY SECTION  */
+/* **************************************** */
+@media screen and (min-width: 1117px) and (max-width: 1550px) {
+  .country-vertical-accordian{
+    display: none !important;
   }
 }
-/* @media screen and (min-width: 570px) and (max-width: 1000px) {
-  .head {
-    display: none;
-  }
-} */
+
+/* ********************* */
+/* HORIZONTAL SLIDER */
+/* ********************* */
 @media screen and (min-width: 1117px) and (max-width: 1495px) {
   .container-main {
     display: block !important;
@@ -379,8 +347,19 @@
   }
 }
 
-@media screen and (min-width: 1117px) and (max-width: 1550px) {
-  .asked {
-    display: none !important;
+@media (max-width: 480px) {
+  .slidess {
+    display: initial;
+  }
+  .slideLi {
+    width: 100% !important;
+    margin-bottom: 15px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .slide-content {
+    width: 100% !important;
+    padding: 25px;
+    font: 95%;
   }
 }

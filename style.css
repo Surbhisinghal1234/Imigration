@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+.applyNowBtn {
+  background-color: #e13833 !important;
+}
+.applyNowBtn:hover {
+  background-color: #6ea1f1 !important;
+  border: 1px solid #6ea1f1 !important;
+  transition: all 0.5s ease-in-out;
+}
+
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -22,9 +31,7 @@
     opacity: 1;
   }
 }
-/* .dropdown-item {
-  padding: 0.25rem 1rem;
-} */
+
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   position: absolute;
   top: 35px;
@@ -61,7 +68,7 @@ a {
 }
 
 .elementor-widget-container:hover .wave-animation {
-  color: white;
+  color: #fff;
 
   animation: wave 0.25s linear;
 }
@@ -89,7 +96,10 @@ a {
 .elementor-widget-container .wave-animation:nth-child(7n) {
   animation-delay: 0.4s;
 }
-/* top navbar */
+
+/* **************************/
+/*FIRST NAVBAR*/
+/* **************************/
 
 .navbar-text ul {
   display: flex;
@@ -109,11 +119,11 @@ a {
   font-size: 14px;
 }
 .nav-item a i {
-  color: white;
+  color: #fff;
   margin-right: 1rem;
 }
 .right-btn {
-  background-color: #df3834;
+  background-color: #e13833;
   line-height: 40px;
   margin-left: 1.5rem;
   display: inline-block;
@@ -123,12 +133,12 @@ a {
   color: #fff !important;
 }
 .navbar-text ul li a i {
-  color: red;
+  color: #e13833;
 }
 
-/* .............................. */
-/* second navbar */
-/* .............................. */
+/*****************************/
+/* SECOND NAVBAR */
+/*****************************/
 .main-navbar {
   box-shadow: 10px 10px 20px #eee;
 }
@@ -138,23 +148,17 @@ a {
 .nav-logo {
   height: 50px;
   width: 166px;
-  /* position: relative; */
 }
 .nav-logo img {
   height: 100%;
   width: 100%;
-  /* position: absolute; */
-  /* top: -57px;
-  left: 120px; */
-  /* border-bottom: 5px red solid; */
-  /* background-color: white; */
-  padding: 7px;
-  /* box-shadow: 10px 10px 10px #eee; */
-}
-/* ............................. */
 
-/* carousel section */
-/* .............................. */
+  padding: 7px;
+}
+
+/*******************************/
+/* (CAROUSEL) SECTION */
+/*******************************/
 
 .slide-content span.carousel-control {
   height: 40px;
@@ -186,19 +190,16 @@ a {
 }
 
 .elementor-left-btn {
-  background-color: #e40046;
+  background-color: #e13833;
   border: none !important;
 }
-/* .elementor-left-btn:hover {
-  background-color: #5b74f6;
-  color: white;
-} */
+
 .elementor-left-btn {
-  background-image: linear-gradient(to bottom, transparent 50%, #5b74f6 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #357ded 50%);
   background-size: 100% 200%;
   background-position: 0 0;
   transition: background-position 0.5s ease-in-out;
-  color: #5b74f6;
+  color: #357ded;
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
@@ -207,15 +208,11 @@ a {
 
 .elementor-left-btn:hover {
   background-position: 0 100%;
-  color: white;
+  color: #fff;
 }
-/* .elementor-right-btn:hover {
-  background-color: #5b74f6;
-  color: white;
-  border: 2px solid #5b74f6;
-} */
+
 .elementor-right-btn {
-  background-image: linear-gradient(to bottom, transparent 50%, #5b74f6 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #357ded 50%);
   background-size: 100% 200%;
   background-position: 0 0;
   transition: background-position 0.5s ease-in-out;
@@ -228,8 +225,8 @@ a {
 
 .elementor-right-btn:hover {
   background-position: 0 100%;
-  color: white;
-  border: 2px solid #5b74f6;
+  color: #fff;
+  border: 2px solid #357ded;
 }
 
 .slide-headings {
@@ -242,10 +239,9 @@ a {
   position: relative;
 }
 
-/* .....................  */
-
+/**********************************/
 /* POSITION SECTION- THREE BOXES */
-/* ........................  */
+/*********************************/
 
 .elementorInner {
   width: 350px;
@@ -254,27 +250,18 @@ a {
   border-radius: 10px;
   text-align: center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.53);
-  color: black;
+  color: #000000;
   padding: 10px;
 }
 .elementorWhite {
-  background-color: white;
+  background-color: #fff;
 }
 .elementorWhite span i:hover {
   background-color: rgba(128, 128, 128, 0.249);
-  /* background-color: #fff; */
-  color: #e40046 !important;
+  color: #e13833 !important;
   transition: all 0.5 ease-in-out;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
 }
-/* .elementorWhite:hover {
-  background-color: #1b1257 !important;
-  color: #fff !important;
-} */
-/* .elementorblue:hover{
-  background-color: #fff;
-  color: black;
-} */
 
 .elementorblue span i:hover {
   background-color: #fff;
@@ -284,7 +271,7 @@ a {
 }
 .elementorblue {
   background-color: #1b1257;
-  color: white;
+  color: #fff;
 }
 .elementor-position {
   position: absolute;
@@ -299,7 +286,7 @@ a {
   padding: 18px;
 }
 .elementorWhite span i {
-  background-color: #e40046;
+  background-color: #e13833;
   border-radius: 50%;
   padding: 18px;
   font-size: 40px;
@@ -313,9 +300,9 @@ a {
 }
 /* d-none d-md-block  */
 
-/* ................  */
+/*******************/
 /* WHO WE ARE */
-/* ..................  */
+/****************** */
 .who-we-are-text p {
   padding: 1rem 0;
 }
@@ -330,7 +317,7 @@ a {
   object-fit: cover;
 }
 .who-we-are-text h5 {
-  color: red;
+  color: #e13833;
 }
 .who-we-are-text h1 {
   font-weight: bold;
@@ -376,7 +363,7 @@ a {
   position: absolute;
   bottom: 140px;
   left: 10px;
-  color: white;
+  color: #fff;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -397,7 +384,7 @@ a {
 }
 .trustworthy-services-btn button {
   border: 0;
-  background-color: #e40046;
+  background-color: #e13833;
   color: #fff;
   padding: 8px 25px;
   font-weight: 600;
@@ -421,7 +408,6 @@ a {
   background-image: url("./images/cta-bg2.jpg");
   height: 400px;
   width: 100%;
-  /* position: relative; */
   overflow: hidden;
   color: #fff;
   top: -160px;
@@ -488,16 +474,12 @@ footer {
   color: #8a0f3d;
 }
 .footer-icons a i {
-  background-color: white;
+  background-color: #fff;
   padding: 10px;
   color: #061d25 !important;
   margin-right: 10px;
 }
-/* .meet-people-text button:hover {
-  background-color: #fff;
-  color: #8a0f3d;
-  transition: all 0.4s ease-in;
-} */
+
 .meet-people-text button {
   background-image: linear-gradient(to bottom, transparent 50%, #fff 50%);
   background-size: 100% 200%;
@@ -514,9 +496,10 @@ footer {
   background-position: 0 100%;
   color: #8a0f3d;
 }
-/* ***************/
-/* why choose us */
-/* ***************/
+
+/* ********************/
+/* WHY CHOOSE SECTION */
+/* ********************/
 .ExpertSupportPanel-head {
   padding-left: 3rem;
 }
@@ -609,79 +592,11 @@ footer {
   transition: all 0.5s ease-in-out;
 }
 
-/* //.........................  */
+/* **************************************** */
+/* VERTICAL ACCORDIAN FOR COUNTRY SECTION  */
+/* **************************************** */
 
-/* COUNTRY SECTION  */
-
-.head {
-  width: 100%;
-  background-color: #00255c;
-  height: 500px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  display: flex;
-  color: white;
-  position: relative;
-}
-.textLeft {
-  /* padding: 20px 0 0 20px; */
-}
-.leftTopHead {
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90px;
-  width: 1009px;
-}
-.uk {
-  height: 500px;
-  width: 85px;
-  border: 1px solid white;
-
-  display: flex;
-  align-items: center;
-  color: white;
-  justify-content: center;
-}
-.countryParent {
-  display: flex;
-  justify-content: flex-end;
-}
-.uk h1 {
-  transform: rotate(270deg);
-}
-.roundCheck {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: white;
-}
-.countryContent {
-  /* padding: 20px 0 0 20px; */
-}
-
-.leftTwo {
-  display: none;
-}
-.leftThree {
-  display: none;
-}
-.leftFour {
-  display: none;
-}
-.leftFive {
-  display: none;
-}
-.leftSix {
-  display: none;
-}
-/* .hoverEffect:hover {
-  background-color: red;
-} */
-/* ...............  */
-.asked {
+.country-vertical-accordian {
   background-color: #fff;
 }
 .accordion-button {
@@ -690,7 +605,7 @@ footer {
   padding: 2rem 1.25rem !important;
 }
 .asked_box h1 {
-  color: white;
+  color: #fff;
   font-weight: bolder;
   font-size: 50px;
   text-align: center;
@@ -698,14 +613,14 @@ footer {
 
 .accordion_box .accordion-item {
   background-color: rgb(45, 45, 45);
-  color: white;
+  color: #fff;
 }
 
 .accordion-button::after {
   background-image: none !important;
 }
 .accordion_box .accordion-button:not(.collapsed) {
-  color: white;
+  color: #fff;
   background-color: #e13833;
   font-size: 25px;
   padding: 30px;
@@ -717,7 +632,7 @@ footer {
 
 .accordion_box .accordion-button {
   background-color: #00255c;
-  color: white;
+  color: #fff;
   font-size: 25px;
 }
 .accordion_box .accordion-body {
@@ -733,7 +648,7 @@ footer {
 }
 
 .bottom_text {
-  color: white;
+  color: #fff;
   text-align: center;
   margin: 20px 0;
 }
@@ -741,9 +656,7 @@ footer {
 .bottom_text h5 {
   font-size: 25px;
 }
-.head {
-  display: none;
-}
+
 .AccordFlex {
   display: flex;
   align-items: center;
@@ -753,11 +666,12 @@ footer {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: white;
-  /* margin-top: 10px; */
+  background-color: #fff;
 }
+/* ********************* */
+/* HORIZONTAL SLIDER */
+/* ********************* */
 
-/* for laptop size  */
 .container-main {
   max-width: 1300px;
   margin: 40px auto;
@@ -769,39 +683,38 @@ footer {
   display: flex;
   border-radius: 10px;
   overflow: hidden;
+  padding: 0 !important;
 }
 .slideLi {
   list-style: none;
-  /* min-height: 400px; */
   height: 550px;
   width: 10%;
   overflow: hidden;
   transition: all 0.2s ease;
-  /* transition: margin-right 1s; */
   background-color: #00255c;
-  border-right: 1px solid white;
+  border-right: 1px solid #fff;
 }
 .slideLi:hover {
-  background-color: #8a0f3d;
+  background-color: #e13833;
 }
-/* .brand1 {
-  background-color: #db65e5;
+
+.contact-click {
+  text-align: left !important;
+  padding: 14px 34px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #e13833;
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  font-weight: 600;
 }
-.brand2 {
-  background-color: #b43e8f;
+.contact-click:hover {
+  background-color: #e13833;
+  color: #fff !important;
+  border: #e13833 1px solid;
+  transition: 0.5s;
 }
-.brand3 {
-  background-color: #6200b3;
-}
-.brand4 {
-  background-color: #3b0006;
-}
-.brand5 {
-  background-color: olive;
-}
-.brand6 {
-  background-color: orangered;
-} */
 .slideLi a.action {
   display: block;
   height: 100%;
@@ -819,10 +732,10 @@ footer {
   font-size: 29px;
 }
 .slide-contentt {
-  padding: 40px;
+  padding: 40px;                                                              
   background-color: #00255c;
   width: 100% !important;
-  color: white;
+  color: #fff;
   height: 590px;
 }
 .active {
@@ -832,44 +745,22 @@ footer {
   display: none;
 }
 
-@media (max-width: 480px) {
-  .slidess {
-    display: initial;
-  }
-  .slideLi {
-    width: 100% !important;
-    margin-bottom: 15px;
-    height: auto;
-    border-radius: 10px;
-  }
-  .slide-content {
-    width: 100% !important;
-    padding: 25px;
-    font: 95%;
-  }
-}
 .roundCheckAccord {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: white;
-  /* margin-top: 10px; */
+  background-color: #fff;
 }
 .AccordFlex {
   display: flex;
-  /* flex-direction: row !important; */
   align-items: center;
-  /* justify-content: center; */
-  /* padding-bottom: 1rem; */
 }
 .AccordFlex p {
   margin-top: 0;
   margin-bottom: 1rem;
   padding-left: 2rem;
 }
-/* .asked {
-  display: none;
-} */
+
 .AccordFlex p {
   text-align: left;
   font-size: 17px;
@@ -883,5 +774,9 @@ footer {
 .expressServices p {
   padding-top: 20px;
 }
-.AccordFlex p {
+.roundCheck {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
 }
