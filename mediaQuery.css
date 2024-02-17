@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 570px) {
+@media screen and (min-width: 300px) and (max-width: 570px) {
   .navbarFirst .navbar-text ul {
     display: flex;
     align-items: flex-start !important;
@@ -13,7 +13,7 @@
   .navbar > .container-xxl {
     padding: 6px 0 0px 0 !important;
   }
-  .navbarFirst .navbar-toggler:focus {
+  .navbar-toggler:focus {
     box-shadow: none !important;
   }
   .navbarFirst .navbar-toggler-icon i {
@@ -34,6 +34,10 @@
   .navbarFirst .right-btn {
     margin: 10px 0 15px 28px !important;
   }
+  .nav-logo {
+    box-shadow: none !important;
+    border: none !important;
+  }
   .navbarTwo .dropdown-menu[data-bs-popper] {
     margin-left: 15px !important;
     width: 174px !important;
@@ -43,8 +47,11 @@
     width: 174px;
     margin-left: 15px;
   }
+  .navbarTwo .navbar-light .navbar-toggler {
+    border: none !important;
+  }
   .navbarTwo .applyNowBtn {
-    margin-left: 15px !important;
+    margin: 0 0 10px 16px !important;
   }
   .navItemMs a {
     margin-left: 0 !important;
@@ -121,6 +128,9 @@
   /**************************/
 
   /**************************/
+  .who-text {
+    margin-top: 1.5rem;
+  }
   .who-we-are-text {
     text-align: center;
     padding: 15px 13px 0 13px;
@@ -199,7 +209,7 @@
     margin-left: 15px;
   }
   .man-img {
-    width: 536px;
+    width: unset !important;
   }
 
   .who-we-are-text {
@@ -424,19 +434,25 @@
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1174px) {
-  .contact-click {
-    margin-top: 0 !important;
-  }
-  .slide-contentt {
-    /* padding: 40px; */
-
-    padding-left: 20px !important;
-  }
   .slideLi a.action span {
     width: 128px !important;
     left: 5px !important;
   }
+  .slide-contentt {
+    padding-left: 20px !important;
+  }
 }
+@media screen and (min-width: 1075px) and (max-width: 1100px) {
+  .contact-click {
+    margin-top: 20px !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1075px) {
+  .contact-click {
+    margin-top: 0px !important;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 992px) {
   .container,
   .container-sm {
@@ -444,7 +460,7 @@
   }
   .navbar-light .navbar-toggler {
     border: none !important;
-    padding: 0 38px 0 10px;
+    padding: 0 !important;
   }
 }
 @media (min-width: 570px) and (max-width: 992px) {
@@ -482,5 +498,34 @@
 
   .navbarFirst .right-btn {
     margin: 10px 0 15px 28px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 992px) {
+}
+@media screen and (min-width: 570px) and (max-width: 992px) {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    padding: 0 10px 0 6px !important;
+  }
+  .navbarTwo .applyNowBtn {
+    margin: 0 0 10px 16px !important;
+  }
+  .nav-logo {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 768px) {
+  .man-left {
+    display: flex;
+    justify-content: center;
+  }
+  .who-text {
+    padding: 0 25px;
   }
 }
