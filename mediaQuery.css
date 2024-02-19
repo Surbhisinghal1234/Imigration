@@ -290,7 +290,7 @@
     position: unset !important  ;
   }
   .slide-content {
-    position: unset !important;
+    /* position: unset !important; */
   }
   .elementorInner {
     width: unset !important;
@@ -301,7 +301,7 @@
     font-size: 2rem;
   }
   .slide-headings {
-    position: unset !important;
+    /* position: unset !important; */
   }
   .slide-headings a {
     padding: 10px 25px;
@@ -312,14 +312,23 @@
   .blank-box {
     height: 400px !important;
   }
-  .carousel-caption {
-    padding-top: 3.25rem;
-  }
+
   .trustworthy-services-btn button {
     margin: auto;
     display: flex;
   }
 }
+@media screen and (min-width: 1200px) {
+  .slide-headings h1 {
+    font-size: 3.5rem !important;
+  }
+}
+/* @media screen and (min-width: 579px) and (max-width: 992) {
+  .slide-headings {
+    bottom: 5rem;
+  }
+} */
+
 @media screen and (min-width: 769px) {
   .man-img {
     width: unset !important;
@@ -439,7 +448,7 @@
     left: 5px !important;
   }
   .slide-contentt {
-    padding-left: 20px !important;
+    padding-left: 25px !important;
   }
 }
 @media screen and (min-width: 1075px) and (max-width: 1100px) {
