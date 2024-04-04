@@ -306,9 +306,8 @@ span.carousel-control {
 .elementor-position {
   position: absolute;
   bottom: -5.6rem;
-  left: 6.2rem;
-  /* margin: 3rem 0; */
   z-index: 99;
+  width: 100%;
 }
 .elementorblue span i {
   font-size: 40px;
@@ -336,8 +335,8 @@ span.carousel-control {
   padding: 1rem 0;
 }
 .man-img {
-  height: 572px;
-  width: 600px;
+  height: 35.75rem;
+  width: 37.5rem;
   padding-left: 3rem;
 }
 .man-img img {
@@ -386,18 +385,18 @@ span.carousel-control {
   font-weight: 600;
 }
 .choose-us {
-  height: 300px;
-  width: 230px;
+  height: 18.75rem;
+  width: 14.375rem;
   background-color: #357ded;
   position: absolute;
-  bottom: 140px;
-  left: 10px;
+  bottom: 8.75rem;
+  left: 0.625rem;
   color: #fff;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10px;
+  padding: 0 0.625rem;
   text-align: center;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
   border-radius: 2px;
@@ -454,11 +453,11 @@ span.carousel-control {
 }
 .meet-people {
   background-image: url("./images/cta-bg2.jpg");
-  height: 400px;
+  height: 25rem;
   width: 100%;
   overflow: hidden;
   color: #fff;
-  top: -160px;
+  top: -10rem;
   z-index: 1;
   left: 0px;
 }
@@ -466,31 +465,31 @@ span.carousel-control {
   position: absolute;
 }
 .meet-people img {
-  height: 440px;
-  width: 280px;
+  height: 27.5rem;
+  width: 17.5rem;
 }
 .meet-people-img-left {
   position: absolute;
-  bottom: -80px;
-  left: -110px;
+  bottom: -5rem;
+  left: -6.875rem;
 }
 .meet-people-img-right {
   position: absolute;
-  right: -120px;
-  top: -80px;
+  right: -7.5rem;
+  top: -5rem;
 }
 .meet-people-text {
-  height: 200px;
-  width: 800px;
+  height: 12.5rem;
+  width: 50rem;
   position: absolute;
-  top: 80px;
-  left: 180px;
+  top: 5rem;
+  left: 11.25rem;
 }
 .meet-people-text h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .meet-people-text p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .meet-people-text button {
   padding: 13px 35px;
@@ -498,11 +497,11 @@ span.carousel-control {
   border: none;
   color: #fff;
   font-weight: 600;
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 footer {
   background-color: #061d25;
-  height: 550px;
+  height: 34.375rem;
   display: flex;
   align-items: end;
   position: relative;
@@ -554,7 +553,7 @@ footer {
 
 .why-us {
   background-color: #ffeeef;
-  height: 790px;
+  height: 49.375rem;
   display: flex;
   align-items: center;
 }
@@ -569,11 +568,11 @@ footer {
 .opportunities {
   background-color: #fff;
   border-radius: 10px;
-  height: 450px;
+  height: 28.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 1.25rem;
   justify-content: center;
   text-align: center;
 }
@@ -597,11 +596,11 @@ footer {
   font-size: 30px;
 }
 .ExpertSupportPanel {
-  width: 350px;
+  width: 21.875rem;
   padding: 16px 0;
 }
 .ExpertSupportPanel span i {
-  font-size: 45px;
+  font-size: 2.8125rem;
   color: #e13833;
   font-weight: 300;
 }
@@ -615,10 +614,10 @@ footer {
 }
 .ExpertSupportPanel h2 {
   font-weight: 400;
-  padding-top: 16px;
+  padding-top: 1rem;
 }
 .ExpertSupportPanel p {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #000000a6;
 }
 
@@ -631,7 +630,7 @@ footer {
 }
 .counter-number h1 {
   color: #357ded;
-  font-size: 60px;
+  font-size: 3.75rem;
   padding-right: 20px;
 }
 .contact-section p a:hover {
@@ -663,7 +662,7 @@ footer {
 .asked_box h1 {
   color: #fff;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: center;
 }
 
@@ -732,7 +731,8 @@ footer {
   max-width: 1300px;
   margin: 40px auto;
   text-align: center;
-  padding-left: none !important;
+  /* padding-left: none !important; */
+  padding: 0 3rem;
 }
 .slidess {
   width: 100%;
@@ -814,7 +814,7 @@ footer {
 }
 .slide-contentt {
   /* padding: 40px; */
-  padding: 30px 0 0 30px;
+  padding: 1.875rem 1.125rem 0 1.125rem;
   background-color: #00255c;
   width: 100% !important;
   color: #fff;
