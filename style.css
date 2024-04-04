@@ -129,8 +129,6 @@ a {
   min-width: 160px;
   max-width: 200px;
   width: 20%;
-  /* box-shadow: 2px 2px 2px #00000082;
-  border: 1px solid rgba(0, 0, 0, 0.162); */
 }
 .nav-logo img {
   height: 100%;
@@ -256,10 +254,7 @@ span.carousel-control {
 .carousel-caption {
   /* position: absolute; */
   /* right: 15%;
-  bottom: 27% !important;
   left: 15%; */
-  /* padding-top: 1.25rem;
-  padding-bottom: 1.25rem; */
   color: #fff;
   text-align: center;
   display: flex;
@@ -410,19 +405,7 @@ span.carousel-control {
 .trustworthy-services-btn {
   margin-top: 1.5rem;
 }
-/* .trustworthy-services-btn button {
-  border: 0;
-  background-color: #e13833;
-  color: #fff;
-  padding: 8px 25px;
-  font-weight: 600;
-  border-radius: 2px;
-}
 
-.trustworthy-services-btn button:hover {
-  background-color: #5b74f6;
-  transition: all 0.4s ease-in;
-} */
 .trustworthy-services-btn button {
   border: 0;
   background-image: linear-gradient(to left, transparent 50%, #357ded 50%);
@@ -731,7 +714,6 @@ footer {
   max-width: 1300px;
   margin: 3.3rem auto;
   text-align: center;
-  /* padding-left: none !important; */
   padding: 0 3rem;
 }
 .slidess {
@@ -753,23 +735,6 @@ footer {
 .slideLi:hover {
   background-color: #e13833;
 }
-/* .contact-click:hover {
-  background-color: #e13833;
-  color: #fff !important;
-  border: #e13833 1px solid;
-  transition: 0.5s;
-} 
- .contact-click {
-  text-align: left !important;
-  padding: 14px 34px;
-  border-radius: 30px;
-  background-color: #fff;
-  color: #e13833;
-  display: flex;
-  margin-top: 20px;
-  border: 1px solid #fff;
-  font-weight: 600;
-}  */
 
 /* ........................... */
 
@@ -813,7 +778,6 @@ footer {
   font-size: 29px;
 }
 .slide-contentt {
-  /* padding: 40px; */
   padding: 1.875rem 1.125rem 0 1.125rem;
   background-color: #00255c;
   width: 100% !important;
