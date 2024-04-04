@@ -442,7 +442,7 @@ span.carousel-control {
   background-color: #e13833;
 }
 .blank-box {
-  height: 250px;
+  height: 13.125rem;
 }
 
 /* ***************** */
@@ -729,7 +729,7 @@ footer {
 
 .container-main {
   max-width: 1300px;
-  margin: 40px auto;
+  margin: 3.3rem auto;
   text-align: center;
   /* padding-left: none !important; */
   padding: 0 3rem;
@@ -784,7 +784,7 @@ footer {
     border 0.5s ease-in-out;
   color: #e13833;
   display: flex;
-  margin-top: 25px;
+  margin-top: 2rem;
   border: 1px solid #fff;
   font-weight: 600;
   font-size: 18px;
