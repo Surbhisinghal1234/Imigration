@@ -164,6 +164,9 @@
   .blank-box {
     height: 385px;
   }
+  .carousel-item {
+    height: unset;
+  }
 }
 @media screen and (min-width: 570px) and (max-width: 992px) {
   .navbar-text ul {
@@ -286,9 +289,6 @@
     display: inline-block;
   }
 
-  .elementor-position {
-    position: unset !important  ;
-  }
   .slide-content {
     /* position: unset !important; */
   }
@@ -298,7 +298,7 @@
     margin-top: 1rem;
   }
   .slide-headings h1 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
   .slide-headings {
     /* position: unset !important; */
@@ -306,9 +306,9 @@
   .slide-headings a {
     padding: 10px 25px;
   }
-  .blank-box-one {
+  /* .blank-box-one {
     height: unset !important;
-  }
+  } */
   .blank-box {
     height: 400px !important;
   }
@@ -382,27 +382,66 @@
 }
 
 /* POSITION SECTION  */
-@media screen and (min-width: 992px) and (max-width: 1198px) {
+@media screen and (min-width: 600px) and (max-width: 850px) {
   .elementor-position {
-    left: 58px;
+    position: unset !important  ;
+    /* bottom: -6rem;
+    left: 0.1rem; */
+    margin: 2rem 1rem 3rem 1rem;
+  }
+  .blank-box-one {
+    height: unset;
+  }
+  .carousel-item {
+    height: unset;
   }
 }
-@media screen and (min-width: 1266px) and (max-width: 1300px) {
+@media screen and (min-width: 850px) and (max-width: 950px) {
   .elementor-position {
-    left: 61px;
+    left: 0.3rem;
+    margin: 0 1rem;
+    bottom: -8rem;
   }
 }
-@media screen and (min-width: 1300px) and (max-width: 1390px) {
+@media screen and (min-width: 950px) and (max-width: 1050px) {
   .elementor-position {
-    left: 126px;
+    left: 0.4rem;
+    margin: 0 1rem;
+    bottom: -8rem;
   }
 }
-@media screen and (min-width: 1220px) and (max-width: 1250px) {
+@media screen and (min-width: 1050px) and (max-width: 1120px) {
   .elementor-position {
-    left: 50px;
+    left: 4rem;
+    bottom: -8rem;
   }
 }
-
+@media screen and (min-width: 1121px) and (max-width: 1200px) {
+  .elementor-position {
+    left: 6.2rem;
+    bottom: -8rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+  .elementor-position {
+    left: 2rem;
+  }
+}
+@media screen and (min-width: 1251px) and (max-width: 1300px) {
+  .elementor-position {
+    left: 4rem;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1370px) {
+  .elementor-position {
+    left: 7.2rem;
+  }
+}
+@media screen and (min-width: 1371px) and (max-width: 1450px) {
+  .elementor-position {
+    left: 4rem;
+  }
+}
 /* **************************************** */
 /* VERTICAL ACCORDIAN FOR COUNTRY SECTION  */
 /* **************************************** */
@@ -536,5 +575,12 @@
   }
   .who-text {
     padding: 0 25px;
+  }
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .carousel-caption {
+    right: 5%;
+    left: 5%;
   }
 }

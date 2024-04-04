@@ -125,8 +125,10 @@ a {
 }
 
 .nav-logo {
-  height: 61px;
-  width: 166px;
+  height: auto;
+  min-width: 160px;
+  max-width: 200px;
+  width: 20%;
   /* box-shadow: 2px 2px 2px #00000082;
   border: 1px solid rgba(0, 0, 0, 0.162); */
 }
@@ -196,7 +198,7 @@ a {
 /* (CAROUSEL) SECTION */
 /*******************************/
 
-.slide-content span.carousel-control {
+span.carousel-control {
   height: 40px;
   background-color: transparent;
   border: 2px solid #fff;
@@ -204,47 +206,18 @@ a {
   padding: 6px 12px 9px 10px;
   width: 40px;
 }
-.slide-content img.d-block.w-100 {
-  height: 80vh;
-  object-fit: cover;
-}
-/* .carousel-caption {
-  display: block;
-  height: 365px;
-} */
-
-.slide-headings {
-  position: absolute;
-  bottom: 185px;
-  right: 145px;
-}
-.slide-headings h1 {
-  font-size: 4rem;
-}
-.slide-headings a {
-  border: 2px solid #fff;
-  padding: 16px 40px;
-  border-radius: 2px;
-  color: #fff;
-}
-.slide-content img.d-block.w-100 {
-}
-
 .elementor-left-btn {
-  background-color: #e13833;
-  border: none !important;
-}
-
-.elementor-left-btn {
-  background-image: linear-gradient(to bottom, transparent 50%, #357ded 50%);
+  background: red;
+  background: linear-gradient(to bottom, #e13833 50%, #357ded 50%);
   background-size: 100% 200%;
   background-position: 0 0;
   transition: background-position 0.5s ease-in-out;
-  color: #357ded;
+  color: #fff;
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
   position: relative;
+  border-radius: 2px;
 }
 
 .elementor-left-btn:hover {
@@ -262,12 +235,37 @@ a {
   text-decoration: none;
   padding: 10px 20px;
   position: relative;
+  border-radius: 2px;
+  border: 2px solid #fff;
 }
 
 .elementor-right-btn:hover {
   background-position: 0 100%;
   color: #fff;
   border: 2px solid #357ded;
+}
+.carousel-item {
+  height: 80vh;
+  position: relative;
+}
+.slide-headings p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-caption {
+  /* position: absolute; */
+  /* right: 15%;
+  bottom: 27% !important;
+  left: 15%; */
+  /* padding-top: 1.25rem;
+  padding-bottom: 1.25rem; */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
 }
 
 /**********************************/
@@ -279,7 +277,6 @@ a {
 .elementorInner {
   width: 350px;
   height: 220px;
-  /* background-color: gray; */
   border-radius: 10px;
   text-align: center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.53);
@@ -308,9 +305,10 @@ a {
 }
 .elementor-position {
   position: absolute;
-  bottom: -147px;
-  left: 102px;
-  margin: 3rem 0;
+  bottom: -5.6rem;
+  left: 6.2rem;
+  /* margin: 3rem 0; */
+  z-index: 99;
 }
 .elementorblue span i {
   font-size: 40px;
