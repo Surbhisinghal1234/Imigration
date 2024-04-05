@@ -348,8 +348,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .slide-headingsh1 {
-    font-size: 1.5rem !important;
+  .slide-headings h1 {
+    font-size: 3.5rem !important;
   }
 }
 
@@ -379,7 +379,6 @@
   }
   /*  CAROUSEL SECTION  */
 
- 
   .slide-headings a {
     padding: 10px 25px;
   }
@@ -404,12 +403,6 @@
 }
 
 /* POSITION SECTION  */
-
-@media screen and (max-width: 1300px) {
-  .elementor-position {
-    bottom: -8rem;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .elementor-position {
@@ -519,7 +512,6 @@
   }
 }
 
-
 @media (min-width: 576px) and (max-width: 992px) {
   .container,
   .container-sm {
@@ -602,4 +594,96 @@
     right: 5%;
     left: 5%;
   }
+}
+@media screen and (max-width: 1300px) {
+  .elementor-position {
+    bottom: -8rem;
+  }
+}
+/* @media (min-width: 1537px){
+
+} */
+@media screen and (min-width: 1537px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 100%;
+    padding: 0 6rem;
+  }
+  .elementor-position {
+    bottom: -4rem;
+  }
+  .carousel-caption {
+    margin-bottom: 15rem;
+  }
+  .elementorInner {
+    min-height: 16.5rem;
+  }
+  .navbarFirst .navbar-text ul li a {
+    font-size: 16.5px !important;
+  }
+  .btn {
+    padding: 0.375rem 0 !important;
+  }
+  .navbarFirst .nav-item a i {
+    font-size: 1.1rem !important;
+  }
+  .navbarTwo .navbar-light .navbar-nav .nav-link {
+    font-size: 19.5px !important;
+  }
+  .nav-logo {
+    max-width: 225px;
+  }
+  .slide-headings h1 {
+    font-size: 4rem !important;
+  }
+  .slide-headings p {
+    font-size: 1.2rem;
+  }
+  .elementor-right-btn {
+    font-size: 1.1rem;
+  }
+
+  .opportunities {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  p {
+    font-size: 1.2rem !important;
+  }
+  h1 {
+    font-size: 2.9rem !important;
+  }
+  a {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.7rem;
+  }
+  h5 {
+    font-size: 1.6rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  /* span{
+    font-size: 2.2rem !important;
+  }    */
+  button {
+    font-size: 1.1rem;
+  }
+  footer {
+    min-height: 38.375rem;
+  }
+  .meet-people {
+    min-height: 28rem;
+}
 }

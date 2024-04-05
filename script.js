@@ -35,3 +35,4 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initial check on load
     checkWidth();
 });
+
